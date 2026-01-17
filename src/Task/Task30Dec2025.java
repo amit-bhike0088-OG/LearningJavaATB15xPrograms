@@ -27,7 +27,7 @@ int score = 85;
         } else if (score >= 0 && score < 60) {
             grade = "F";
         } else {
-            grade = "Invalid Score";
+            grade = "Invalid Grade";
         }
 
         System.out.println("Your grade is: " + grade);
